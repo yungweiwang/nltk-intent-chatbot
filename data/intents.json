@@ -1,0 +1,83 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning",
+        "Good evening", "How are you?",
+        "What's up?", "Nice to meet you"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later",
+        "See you soon", "Take care",
+        "I have to go", "Talk to you later",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you", "Thanks", "Thanks a lot",
+        "I appreciate it", "Thank you so much",
+        "That's helpful", "Many thanks",
+        "You helped me"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "What is NLP?", "Explain natural language processing",
+        "What does NLP mean?", "Tell me about NLP",
+        "How does NLP work?", "Define NLP",
+        "What is natural language processing?",
+        "What are NLP applications?"
+      ],
+      "responses": [
+        "NLP enables computers to process human language."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning?",
+        "Explain machine learning",
+        "What is ML?", "How does machine learning work?",
+        "Define machine learning", "Tell me about ML",
+        "What are machine learning models?",
+        "What is supervised learning?"
+      ],
+      "responses": [
+        "Machine learning allows computers to learn patterns from data."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?", "Explain Python programming",
+        "What can Python do?", "Tell me about Python",
+        "Is Python good for NLP?", "Why use Python?",
+        "What is Python used for?",
+        "Can I use Python for machine learning?"
+      ],
+      "responses": [
+        "Python is a programming language widely used in NLP and machine learning."
+      ]
+    }
+  ]
+}
